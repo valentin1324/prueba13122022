@@ -1,0 +1,413 @@
+
+.textoinicio{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: #021B79;
+}
+
+a{text-decoration: none;
+color: #FFF;}
+
+
+.parrafodos{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.PRUBAS{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.parrafodos {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.parratitulodos{
+    color: #021B79;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.espacio{
+    width: 100%;
+    height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* esto tiene que estar en todas las paginas =============================================================================== */
+.notificacion {
+    position: absolute;
+    display: flex;
+    max-width: 300px;
+    padding: 20px 15px;
+    border-radius: 4px;
+    background-color: #141619;
+    color: #f6f5f9;
+    box-shadow: 0 1px 10px rgba(0, 0, 0 .1);
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    animation: fade 4s linear forwards;
+}
+
+.progress {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, #529bdb, #3250bf);
+    border-radius: 4px;
+    animation: progress 3s .25s linear forwards;
+}
+
+@keyframes fade {
+    5% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+
+    }
+
+    90% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    95% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
+
+
+/* wsp */
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float:hover {
+    text-decoration: none;
+    color: #25d366;
+    background-color: #fff;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    background-color: #0575E6;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer h1{
+    font-size: 15px;
+}
+
+.curico {
+    width: 25%;
+    text-align: justify;
+    margin: 20px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.Pichidegua {
+
+    text-align: justify;
+    margin: 20px;
+    width: 25%;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 10px;    
+
+
+}
+
+.logitofooter{
+    width: 25%;
+}
+
+/* ==================================================== */
+
+
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+    
+    .marcas .logotipes {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .Pichidegua{
+        width: 50%;
+     
+    }
+     .curico{
+        width: 50%;
+    
+    } 
+    
+    
+    .footer{
+        display: flex;
+      
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0;
+     
+    }
+    
+    .logitofooter{
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    
+     
+    
+    .marcass{width: 100%;}
+    
+    .marcas .logotipes img{
+        width: 150px;
+        height: 50px;
+    }
+    
+    .marcas .logotipes .skfs{
+        padding: 20px;
+    }
+
+}    
+
+
+@media only screen and (min-width: 452px) and (max-width: 700px) {
+
+    
+    .marcas .logotipes {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .Pichidegua{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .curico{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0;
+    
+    }
+    
+    .logitofooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .marcass{width: 100%;}
+    
+    .marcas .logotipes img{
+        width: 150px;
+        height: 50px;
+    }
+    
+    .marcas .logotipes .skfs{
+        padding: 20px;
+    }
+
+}    
+
+
+
+
+@media only screen and (min-width: 398px) and (max-width: 452px) {
+
+
+    
+    .marcas .logotipes {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .Pichidegua{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .curico{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0;
+    
+    }
+    
+    .logitofooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .marcass{width: 100%;}
+    
+    .marcas .logotipes img{
+        width: 150px;
+        height: 50px;
+    }
+    
+    .marcas .logotipes .skfs{
+        padding: 20px;
+    }
+
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 230px) and (max-width: 398px) {
+
+
+    
+    
+    
+    .Pichidegua{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .curico{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0;
+    
+    }
+    
+    .logitofooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .marcass{width: 100%;}
+    
+    .marcas .logotipes img{
+        width: 150px;
+        height: 50px;
+    }
+    
+    .marcas .logotipes .skfs{
+        padding: 20px;
+    }
+
+}  
